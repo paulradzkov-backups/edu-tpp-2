@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* @author: Paul Radzkov | radzkov@gmail.com */
+
+/* Table of contest */
+
+/* Basics */
+body {background:#FFF;}
+body, select, input, textarea {font: 15px/1.333 "Trebuchet MS";color:#131313;}
+@media screen and (max-width:1024px) {
+	body, select, input, textarea {font-size: 14px;}
+}
+@media screen and (max-width:800px) {
+	body, select, input, textarea {font-size: 13px;}
+}
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {outline: none;}
+a, a:active {color: #0079FF;}
+a:visited {color:#002F63;}
+a:hover {color: #000 /* #0051AB; */}
+a.goto, a.goto:visited, a.goto:active {color: #0079FF;text-decoration:none;border-bottom:1px dashed;}
+a.goto:hover {color:#000 /* #0051AB; */}
+
+/* New tab link */
+/*a[target="_blank"]:hover         { background-image: url(../images/icons/external-small.png);padding:2px 16px 2px 0px; margin:-2px 0; background-repeat: no-repeat; background-position: right center;} */
+
+/* Make sure the icons are not cut */
+p a[href^="mailto:"],
+p a[href$=".pdf"], 
+p a[href$=".doc"], 
+p a[href$=".xls"], 
+p a[href$=".rss"], 
+p a[href$=".rdf"], 
+p a[href*="twitter.com"], 
+p a[href*="facebook.com"] { padding:2px 0px 2px 18px; margin:-2px 0; background-repeat: no-repeat; background-position: left center; }
+
+/* External links */
+p a[href^="mailto:"]        { background-image: url(../images/icons/mail-medium.png); background-position:0 5px; }
+
+/* Files */
+p a[href$=".pdf"]   { background-image: url(../images/icons/document-pdf.png); }  
+p a[href$=".doc"]   { background-image: url(../images/icons/document-word.png); }  
+p a[href$=".xls"]   { background-image: url(../images/icons/document-excel.png); }  
+ 
+/* Misc */
+p a[href$=".rss"], 
+p a[href$=".rdf"]   { background-image: url(../images/icons/feed.png); }
+p a[href*="twitter.com"]   { background-image: url(../images/icons/balloon-twitter.png); }
+p a[href*="facebook.com"]   { background-image: url(../images/icons/balloon-facebook.png); }
+
+h1,h2,h3,h4,h5,h6 {font-family:/*"Segoe UI",*/"Myriad Pro",Tahoma;color:#00465E;font-weight:normal; text-shadow:0px 1px 0px #FFF; }
+h1 {font-size:2em;letter-spacing:-0.03em;margin:0 0 0.666em;line-height:1.1;}
+h2 {font-size:1.6em;letter-spacing:-0.02em;margin:2.5em 0 0.833em;line-height:1.25;}
+h3 {font-size:1.333em;margin:1.5em 0 1em;}
+h4 {font-size:1.2em;margin:2em 0 1em;font-family:"Trebuchet MS";}
+h5 {font-size:1.0em;margin:1.333em 0 1.333em;font-weight:bold;font-family:"Trebuchet MS";}
+h6 {font-size:1.0em;margin:1.333em 0 1.333em;font-weight:bold;}
+div > p:first-child {margin-top:0;}
+/* h4, h5, h6 {margin-top:0;} */
+h1 + h2, h2 + h3, h1 + h3  {margin-top:20px;}
+
+blockquote, ul, ol {margin-top:1.333em;margin-bottom:1.333em;}
+/* p {margin:1.333em 0;} */
+p, address {margin-top:0;margin-bottom:0;}
+address {font-style:normal;}
+p + p, div + p, p+div, p + blockquote, div + blockquote {margin-top:1.333em;}
+p + ul, p + ol {margin-top:0.666em;}
+ul, ol { margin-left: 2.8em; }
+ol { list-style-type: decimal; }
+li {margin-bottom:0;}
+ul.space li, ol.space li {margin-bottom:0.666em;}
+ul.nospace li, ul.nospace li {margin-bottom:0;}
+ul.left-edge {margin-left:0;}
+
+.contentarea ul {list-style:none;}
+.contentarea ul li:before {content:'\2014';margin-left:-1.2em;padding-right:0.5em;}
+.contentarea ul.no-bullets li:before {content:'';margin-left:0em;display:none;}
+
+/* Remove margins for navigation lists */
+nav ul, nav li { margin: 0; } 
+
+code, kbd, samp, pre, tt, var  { font-family: Consolas, monaco, "Lucida Console", courier, monospace; }
+pre {overflow:auto; background:#EEE; padding:5px;}
+/* mobile */
+@media screen and (max-width: 480px) {
+	pre {overflow:visible;}
+}
+sup, sub {vertical-align:middle;position:relative;font-size:75%;}
+sup { bottom: 0.5em; }
+sub {    top: 0.5em; }
+hr {border:0;border-bottom:1px dotted;}
+
+/* Links */
+a img {border:none;}
+
+/* Positioning & clearing */
+.fl {float:left;}
+.fr {float:right;}
+.clr, .clear {clear:both;}
+
+.ta-l {text-align:left;}
+.ta-r {text-align:right;}
+.ta-c {text-align:center;}
+.ta-j {text-align:justify;}
+
+/* Text styles */
+.loud {font-size:1.4em;line-height:normal;}
+.quiet {font-size:0.9em;}
+
+.nobr, .nowrap {white-space:nowrap;}
+
+.initial-letter:first-letter {font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;font-size:3em;display:block;float:left;padding-top:0.2em;}
+/* Block styles */
+.outset {margin-left:-10px;margin-right:-10px; }
+.underlay {background-color:#EEE;padding:8px 10px;}
+
+.inverse {background-color:#333;color:#FFF;} /* inverse background and color */
+span.inverse, strong.inverse, em.inverse {outline:0.4em solid #333;} /* for inline elements */
+span.inverse.loud, strong.inverse.loud, em.inverse.loud {line-height:1.6em;} /*to fix outline that overlap text (in Firefox) */
+
+/* Pictures */
+.pic {font-size:10px;margin-bottom:9px;}
+.pic.fl {margin-right:20px;margin-top:6px;clear:left;}
+.pic.fr {margin-left:20px;margin-top:6px;clear:right;}
+.pic img {margin-bottom:9px;} 
+.pic img, img.pic {max-width:100%;} /* all image fluid by default */
+.pic p, .caption {font-size:11px;line-height:16px; margin:0px; color:#666;}
+.pic.frame img {padding:1px;border:1px solid #666;background-color:#FFF;}
+
+
+/* Incuts */
+.incut {/*margin-top:0;*/}
+.incut.fl {margin-right:40px;width:25%;clear:left;}
+.incut.fr {margin-left:40px;width:25%;clear:right;}
+.incut.outset-left {margin:2em 10% 2em -40%;width:60%;float:left;clear:left;position:static;}
+.incut.outset-right {margin:2em -60% 2em 10%;width:80%;float:right;clear:right;position:static;}
+.incut.fl.sep {border-right:1px solid;padding-right:20px;}
+.incut.fr.sep {border-left:1px solid;padding-left:20px;}
+.incut.frame {padding:7px 9px;border:1px solid;}
+
+.incut > p:first-child {margin-top:0;}
+
+.bigtext {font-family:Georgia;font-size:1.3em;}
+
+/* Blockquotes */
+blockquote {margin:0px 0; clear:both;font-family:Arial;}
+cite {font-style:italic;font-family:Arial;} /* <CITE> indicates a reference to work, such as a book, report or web site. Also commonly used to indicate ownership and authorship of a web page */
+blockquote cite {display:block;text-align:right;color:#999;margin-top:0.666em;}
+blockquote h3 {font-style:italic;margin-top:0;}
+
+/* Shedules */
+dl.shedule {overflow:hidden;margin:1.333em 0;}
+dl.shedule dt {float:left;clear:left;padding-bottom:0.666em;width:10em;}
+dl.shedule dd {float:left;padding-bottom:0.666em;}

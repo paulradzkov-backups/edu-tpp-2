@@ -1,0 +1,263 @@
+<!doctype html>  
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Главная - Центр делового образования</title>
+  <meta name="description" content="">
+  <meta name="author" content="Paul Radzkov">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- CSS : implied media="all" -->
+  <link type="text/css" rel="stylesheet" href="css/global.css?v=1">
+  <link type="text/css" rel="stylesheet" href="css/t2.css?v=1">
+  
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+ 
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script type="text/javascript" src="js/libs/modernizr-1.6.min.js"></script>
+
+</head>
+
+<body>
+	<div id="allpage">
+		<div class="header">
+			<div class="l-margin">
+				<div class="header-logo">
+					<embed width="360" height="200" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowfullscreen="false" allowscriptaccess="sameDomain" name="logo" quality="high" src="images/logo.swf">  
+				</div>
+				<div class="header-map">
+					<embed width="600" height="200" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowfullscreen="false" allowscriptaccess="sameDomain" name="map" quality="high" src="images/map.swf"> 
+				</div>
+				<div class="header-phones">
+					<ul>
+						<li><span class="label">Тел./факс:</span>(017) 290&minus;72&minus;77</li>
+						<li>290&minus;72&minus;59</li>
+						<li>237&minus;42&minus;36</li>
+						<li class="velcom-sufx">8029 118&minus;08&minus;70</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="topline l-margin">
+			<div class="l-zero">
+				<p class="breadcrumbs nav">
+					<a class="homepage" href="index.html"><span>Главная</span></a>
+				</p>
+				<fieldset class="sitesearch jslabels">
+					<legend>Поиск</legend>
+					<form action="">
+						<label for="searchfield">Поиск по сайту</label>
+						<input type="text" name="searchfield" id="searchfield" class="jsfield" />
+						<input type="submit" value="Найти" title="Найти" />
+					</form>
+				</fieldset>
+			</div>
+		</div>
+		<div class="mainnavigation l-margin mp-nav">
+			<div class="l-zero">
+				<div class="nav services">
+						<p class="menu-title"><span>Наши услуги</span></p>
+						<div class="slides-container">
+							<div id="slides" class="fluidslider">
+								<ul class="menu-content slides-wrapper">
+									<li class="slide item-1">
+										<a href="international-business-programs.html">Международные <br />деловые <br />программы</a>
+										<p>Существующие договоренности между ТПП государств-участников СНГ, стран ЕС и Азии, совместная работа на протяжении десятилетий позволяет реализовать деловые визиты, специализированные программы отражающие весь спектр предпринимательских интересов.</p>
+									</li>
+									<li class="slide item-2">
+										<a href="foreign-economic-activity.html">Развитие <br />внешнеэкономической <br />деятельности</a>
+										<p>Для развития внешнеэкономического сотрудничества для зарубежных и отечественных предпринимателей предлагаются следующие услуги</p>
+									</li>
+									<li class="slide item-3">
+										<a href="corporate-training.html">Корпоративное <br />обучение</a>
+										<p>УП «Центр делового образования» БелТПП предлагает услуги по проведению корпоративного обучения сотрудников вашего предприятия.</p>
+									</li>
+									<li class="slide item-4">
+										<a href="seminars-and-workshops.html">Семинары и <br />тренинги</a>
+										<p>Центр делового образования предлагает более 100 учебных программ разной тематики. Мероприятия проводят лучшие специалисты из Беларуси и зарубежных стран.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="verticalmenu">
+					<ul class="nav mainmenu">
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="clients.html">Клиенты и партнеры</a></li>
+						<li><a href="trainers.html">Тренеры</a></li>
+						<li><a href="library.html">Библиотека</a></li>
+						<li><a href="contacts.html">Контактные данные</a></li>
+					</ul>
+					<ul class="nav servicemenu">
+						<li class="sitemap"><a href="sitemap.html">Карта сайта</a></li>
+						<li class="printversion"><a href="printsample.html">Версия для печати</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="l-margin">
+			<div class="l-zero">
+				<div class="l-base">
+					<div class="contentarea">
+						
+						<div class="news-query-item">
+							<h3 class="news-query-title"><a href="#">18-19 мая 2011 года семинар-консультация «Выставочный маркетинг»</a></h3>
+							<div class="news-query-image"><a href="#"><img width="160" height="120" border="0" src="images/vystavka_v.jpg" alt=""/></a></div>
+							<div class="news-query-short-text">Проводится совместно с Министерством торговли Республики Беларусь. Модераторы: специалисты Министерства торговли Республики Беларусь и ЧУП «Белинтерэкспо».</div>
+						</div>						
+						<div class="news-query-item">
+							<h3 class="news-query-title"><a href="#">18-19 мая 2011 года семинар-консультация «Выставочный маркетинг»</a></h3>
+							<div class="news-query-image"><a href="#"><img width="160" height="120" border="0" src="images/vystavka_v.jpg" alt=""/></a></div>
+							<div class="news-query-short-text">Проводится совместно с Министерством торговли Республики Беларусь. Модераторы: специалисты Министерства торговли Республики Беларусь и ЧУП «Белинтерэкспо».</div>
+						</div>						
+						<div class="news-query-item">
+							<h3 class="news-query-title"><a href="#">18-19 мая 2011 года семинар-консультация «Выставочный маркетинг»</a></h3>
+							<div class="news-query-image"><a href="#"><img width="160" height="120" border="0" src="images/vystavka_v.jpg" alt=""/></a></div>
+							<div class="news-query-short-text">Проводится совместно с Министерством торговли Республики Беларусь. Модераторы: специалисты Министерства торговли Республики Беларусь и ЧУП «Белинтерэкспо».</div>
+						</div>
+						
+						
+						<p>Мы проводим учебные программы, тренинги и семинары по следующим направлениям:</p>
+						<ul>
+							<li><a href="seminars-and-workshops.html#management">менеджмент</a>,</li>
+							<li><a href="seminars-and-workshops.html#active_sales">активные продажи</a>,</li>
+							<li><a href="seminars-and-workshops.html#marketing">маркетинг</a>,</li>
+							<li><a href="seminars-and-workshops.html#pr">коммуникации, реклама, PR</a>,</li>
+							<li><a href="seminars-and-workshops.html#hr">управление персоналом, HR</a>,</li>
+							<li><a href="seminars-and-workshops.html#foreign_economic_activity">внешнеэкономическая деятельность</a>,</li>
+							<li><a href="seminars-and-workshops.html#investments">инвестиции</a>,</li>
+							<li><a href="seminars-and-workshops.html#finances">финансы, бухгалтерский учет и налогообложение</a>,</li>
+							<li><a href="seminars-and-workshops.html#law">право</a>,</li>
+							<li><a href="seminars-and-workshops.html#logistics">логистика</a>,</li>
+							<li><a href="seminars-and-workshops.html#evaluation">оценка</a>.</li>
+						</ul>
+						<p class="ta-r"><a href="seminars-and-workshops.html">Посмотреть полный список</a></p>
+						
+					</div><!-- end of .contentarea -->
+				</div>
+			</div>
+		</div>
+		<div class="logoscroller" id="logoscroller">
+			<div class="logowrapper">
+				<div class="logos">
+					<img alt="ЗАО «АТЛАНТ»" src="images/logos/atlant.gif">
+					<img alt="Минский тракторный завод" src="images/logos/belarus.gif">
+					<img alt="ОАО «АСБ Беларусбанк»" src="images/logos/belarusbank.gif">
+					<img alt="Производственное объединение «БЕЛАЗ»" src="images/logos/belaz.gif">
+					<img alt="«Белнефтехим»" src="images/logos/belneftehim.gif">
+					<img alt="ОАО «Белшина»" src="images/logos/belshina.gif">
+					<img alt="РУП «Белтелеком»" src="images/logos/beltelecom.gif">
+					<img alt="Белорусский государственный университет" src="images/logos/bgu.gif">
+					<img alt="ОАО «БПС-Банк»" src="images/logos/bpsbank.gif">
+					<img alt="СП ОАО «Брестгазоаппарат»" src="images/logos/gefest.gif">
+					<img alt="Гомель Обои" src="images/logos/gomeloboi.gif">
+					<img alt="Kelme" src="images/logos/kelme.gif">
+					<img alt="ОAO «Криница»" src="images/logos/krynitsa.gif">
+					<img alt="ОАО «МАПИД»" src="images/logos/mapid.gif">
+					<img alt="Минский автомобильный завод" src="images/logos/maz.gif">
+					<img alt="МИЛАВИЦА" src="images/logos/milavitsa.gif">
+					<img alt="ОАО «Могилевхимволокно»" src="images/logos/mogilevhimvolokno.gif">
+					<img alt="ОАО «Нафтан»" src="images/logos/naftan.gif">
+					<img alt="ЗАО «Пинскдрев»" src="images/logos/pinskdrev.gif">
+					<img alt="СП «Санта-Бремор»" src="images/logos/santabremor.gif">
+					<img alt="Элема" src="images/logos/elema.gif">
+				</div>
+			</div>
+		</div><!-- end of logoscroller -->
+		<div class="pushfooter"><!-- x --></div>
+	</div> <!-- end of #allpage -->
+	<div class="footer">
+		<div class="l-margin">
+			<div class="l-zero">
+				<div class="l-base"><!-- this is microformat data hCard. be carefull with classes. manual: http://help.yandex.ru/webmaster/?id=1111574 -->
+					<div id="hcard-edutpp" class="vcard">
+						<p class="copyrights">
+							&copy; <a class="fn org url" href="http://edu-tpp.by">УП &laquo;Центр делового образования&raquo;</a> <span class="nowrap">2008 &mdash; 2011</span>
+							<span class="logo"><span class="value-title" title="http://dl.dropbox.com/u/9354329/edu-tpp-2/apple-touch-icon.png"><!-- x --></span></span>
+							<span class="photo"><span class="value-title" title="http://dl.dropbox.com/u/9354329/edu-tpp-2/apple-touch-icon.png"><!-- x --></span></span>
+						</p>
+						<div class="subzero clearfix">
+							<dl>
+								<dt>Наш адрес:</dt>
+								<dd>
+									<address class="adr">
+										<span class="postal-code">220029</span>
+										<span class="country-name">Республика Беларусь</span>, <br />
+										<span class="locality nowrap">г. Минск</span>,
+										<span class="street-address nowrap">ул. Коммунистическая 11</span>, <span class="extended-address nowrap">офис 206/1</span>
+									</address>
+									(<a href="#">карта проезда</a>)
+									<span class="geo">
+										<span class="latitude">Широта: <abbr class="value-title" title="53.912652"> 53°54′45.27″</abbr> с. ш.</span>
+										<span class="longitude">Долгота: <abbr class="value-title" title="27.562235"> 27°33′44.43″</abbr> в. д.</span>
+									</span>
+								</dd>
+								<dt>Время работы:</dt>
+								<dd class="workhours">понедельник&mdash;пятница <span class="nowrap">с 8:30</span> <span class="nowrap">до 17:30</span></dd>
+							</dl>
+							<dl class="side">
+								<dt>Тел./факс:</dt>
+								<dd>
+									<span class="tel"><abbr class="value" title="+375 (17) 290-72-77">(017) 290-72-77</abbr>,</span>
+									<span class="tel"><abbr class="value" title="+375 (17) 290-72-59">(017) 290-72-59</abbr>,</span><br />
+									<span class="tel"><abbr class="value" title="+375 (17) 237-42-36">(017) 237-42-36</abbr>,</span>
+									<span class="tel"><abbr class="value velcom-sufx" title="+375291180870">8-029-118-08-70</abbr></span>
+								</dd>
+								<dt>E-mail:</dt>
+								<dd><a class="email" href="mailto:info@edu-tpp.by">info@edu-tpp.by</a></dd>
+							</dl>
+						</div>
+						<span class="category"><span class="value-title" title="образование"><!-- x --></span></span>
+					</div> <!-- end hCard --></div>
+			</div>
+				</div>
+		</div>
+
+  <!-- Javascript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.min.js"%3E%3C/script%3E'))</script> -->
+  <script type="text/javascript" src="js/libs/jquery-1.5.min.js"></script>
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/mylibs/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript" src="js/mylibs/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="js/mylibs/jquery.darkbox.min.js"></script>
+  <script type="text/javascript" src="js/mylibs/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="js/mylibs/fluidslider.jquery.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- end concatenated and minified scripts-->
+  
+  <!-- <script type="text/javascript" src="js/mylibs/modulargrid.js"></script> -->
+  
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+       change the UA-XXXXX-X to be your site's ID -->
+  
+</body>
+</html>
